@@ -141,12 +141,12 @@ void loop()
     //SERIAL_OUTPUT.print("PM_1_[ug/m3]:");
     //SERIAL_OUTPUT.print(pm1);
     //SERIAL_OUTPUT.print(",");
-    SERIAL_OUTPUT.print("PM_2pt5_[ug/m3]:");
+    //SERIAL_OUTPUT.print("PM_2pt5_[ug/m3]:");
     SERIAL_OUTPUT.print(pm25);
-    SERIAL_OUTPUT.print(",");
-    SERIAL_OUTPUT.print("PM_10_[ug/m3]:");
-    SERIAL_OUTPUT.print(pm10);
-    SERIAL_OUTPUT.println("");
+    //SERIAL_OUTPUT.print(",");
+    //SERIAL_OUTPUT.print("PM_10_[ug/m3]:");
+    //SERIAL_OUTPUT.print(pm10);
+    //SERIAL_OUTPUT.println("");
     
     delay(5000);
 }
