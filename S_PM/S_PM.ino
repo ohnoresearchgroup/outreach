@@ -148,5 +148,5 @@ void loop()
     //SERIAL_OUTPUT.print(pm10);
     //SERIAL_OUTPUT.println("");
     
-    delay(5000);
+    delay(2500);
 }

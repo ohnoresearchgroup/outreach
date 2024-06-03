@@ -38,10 +38,10 @@ except serial.SerialException as e:
 
 # Set up the GUI
 root = tk.Tk()
-root.title("Particulate Matter Reader")
+root.title("VOC Reader")
 
 # Add header label
-header_label = ttk.Label(root, text="PM2.5 [ug\m^3]", font=('Helvetica', 24))
+header_label = ttk.Label(root, text="VOC concentration [ppb]", font=('Helvetica', 24))
 header_label.pack(padx=20, pady=10)
 
 number_label = ttk.Label(root, text="Waiting for data...", font=('Helvetica', 48))
